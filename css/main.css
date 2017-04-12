@@ -1,0 +1,39 @@
+body{
+  font-family: 'Open Sans',sans-serif;
+  text-align: center;
+}
+.heading{
+  font-size: 28px;
+  padding:20px 0px;
+  color:steelblue;
+}
+#chart{
+  background-color: #FFF;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+.land {
+  fill: #e5e5e5;
+}
+.countries{
+  fill:none;
+  stroke:#ccc7c7;
+}
+.meteorites:hover {
+  stroke: #000;
+  cursor:pointer;
+}
+.tooltip{
+  position:absolute;
+  text-align:justify;
+  width:150;
+  height:150;
+  background-color: #000;
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  pointer-events: none;
+}
+
+
+
